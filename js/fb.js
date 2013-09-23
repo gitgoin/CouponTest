@@ -40,6 +40,8 @@ $(document).ready(function () {
 
                     } else { // user not logged into fb
                         
+                        $("#content").html(nonFanContent);
+                        
                     }
 
                 }, true);
